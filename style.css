@@ -54,11 +54,13 @@ font-size: 12px;
 }
 .about-paragraph{
 display: flex;
-max-width: 400px;
-color:rgba(0, 0, 0, 0.7);
+max-width: 800px;
+padding: 0px 25px 0px 40px;
 }
 .work-paragraph{
 display: flex;
+padding: 45px 25px 0px 40px;
+width: 800px;
 }
 .work{
 background: #d1bac8;
@@ -74,5 +76,5 @@ height: 450px;
 display: flex;
 justify-content:space-around;
 list-style: none;
-padding: 20px 15px 20px 15px;
+padding: 10px 15px 10px 15px;
 }
