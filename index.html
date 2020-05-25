@@ -1,77 +1,105 @@
 <!doctype html>
-
 <html>
-<head></head>
-
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-	<header>
-		<h1>Jane Foster</h1>
-		<nav>
-			<ul>
+	<div class="Wrapper">
+		<header class="header">
+			<div class="header-container">
+				<h1 class="title">Jane Foster</h1>
+				<nav>
+					<ul class="links">
+						<li><a href="" class="link">About</a></li>
+						<li><a href="" class="link">Works</a></li>
+						<li><a href="" class="link">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header-information">
+				<h2 class="subtitle">HELLO, I'M JANE FOSTER</h2>
+				<p class="about">I am a photographer and art director based in Paris currently having a great time working at personal portfolio. 
+				I also freelance for many companies on my spare time and help them create joyful digital experiences..</p>
+				<button class="buttom">Contact me</button>
+				<button class="buttom">View works</button>
+			</div>
+		</header>
+		<main>
+			<section class="about">
+				<div>
+					<img src="images/about.jpg"
+					srcset="images/about@2x.jpg 2x">
+					<br/>
+					<span class="subtitle">Jane Foster,<span class="subtitle-text">photographer</span></span>	
+				</div>
+			</div>
+			<div>
+				<div class="about-paragraph">
+					<div>
+						<h2>ABOUT ME</h2>
+						<p>I am a photographer and art director based in Paris currently having a great time working at personal portfolio. I also freelance for many companies on my spare time and help them create joyful digital experiences and unique visual identities.
+						</p>
+					</div>
+					<div>
+						<p>Wanna hire me for working on your company for full time or part time?</p>
+						<a href="" class="link">Download my CV</a>	
+					</div> 	
+				</div>
+				<div class="work-paragraph">
+					<div>
+						<h2 class="subtitle">WORK EXPIRIENCE</h2>
+						<h3 class="subtitle-text">Postent, event photographer assistant
+							Paris, France
+						</h3>
+						<span class="subtitle-text">2012-2013</span>
+						<h3 class="subtitle-text">Photof, art director
+							Florence, Italy
+						</h3>
+						<span class="subtitle-text">2013-2017</span>
+					</div>
+					<div>
+						<h3 class="subtitle-text">Freelance photographer
+						Self-employed</h3>
+						<span class="subtitle-text">2017-2019</span>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section class="work">
+			<div class="work-header">
+				<h2 class="subtitle">MY LATEST WORK</h2>
+				<span class="subtitle-text">Project I've been working on.</span>
+			</div>
+			<ul class="work-example">
 				<li>
-					About
+					<img src="images/work1.jpg"
+					srcset="images/work1@2x.jpg 2x">
 				</li>
 				<li>
-					Works
+					<img src="images/work2.jpg"
+					srcset="images/work2@2x.jpg 2x">
 				</li>
 				<li>
-					Contact
+					<img src="images/work3.jpg"
+					srcset="images/work3@2x.jpg 2x">
 				</li>
 			</ul>
-		</nav>
-		<h2>HELLO, I'M JANE FOSTER</h2>
-		<p>I am a photographer and art director based in Paris currently having a great time working at personal portfolio. 
-		I also freelance for many companies on my spare time and help them create joyful digital experiences..</p>
-		<button>Contact me</button>
-		<button>View works</button>
-	</header>
-	<main>
-		<section>
-			<img src="images/about2.jpg" width="250">
-			<span>JANE FOSTER, photographer</span>
-			<h2>ABOUT ME</h2>
-			<p>I am a photographer and art director based in Paris currently having a great time working at personal portfolio. I also freelance for many companies on my spare time and help them create joyful digital experiences and unique visual identities.</p>
-			<p>Wanna hire me for working on your company for full time or part time?</p>
-			<a href="">Download my CV</a>
-			<h2>WORK EXPIRIENCE</h2>
-			<h3>Postent, event photographer assistant
-				Paris, France
-			</h3>
-			<span>2012-2013</span>
-			<h3>Photof, art director
-				Florence, Italy
-			</h3>
-			<span>2013-2017</span>
-			<h3>Freelance photographer
-			Self-employed</h3>
-			<span>2017-2019</span>
-		</section>
-		<section>
-			<h2>MY LATEST WORK</h2>
-			<span>Project I've been working on.</span>
-			<ul>
-				<li>
-					<img src="images/work11.jpg" width="200">
-				</li>
-				<li>
-					<img src="images/work22.jpg" width="200">
-				</li>
-				<li>
-					<img src="images/work33.jpg" width="200">
-				</li>
-			</ul>
-		</section>
-		<section>
-			<div>Drop me a line to hire me for freelance projects.</div>
-			<form>
-				<input type="text" placeholder="Name">
-				<input type="text" placeholder="Email">
-				<input type="text" placeholder="Subject">
-				<textarea placeholder="Message"></textarea>
-				<br/>
-				<button>Send message</button>
-			</form>
-		</section>
-	</main>
+		</div>
+	</section>
+	<section>
+		<div>Drop me a line to hire me for freelance projects.</div>
+		<form>
+			<input type="text" placeholder="Name">
+			<input type="text" placeholder="Email">
+			<input type="text" placeholder="Subject">
+			<textarea placeholder="Message"></textarea>
+			<br/>
+			<button>Send message</button>
+		</form>
+	</section>
+</main>	
+</div>
 </body>
 </html>
