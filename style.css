@@ -144,25 +144,42 @@ bottom: O;
 width: 100%;
 }
 .form-container{
+font-family: 'Poppins', sans-serif;
 max-width: 1200px;
 margin: 0 auto;
-justify-content: space-around;
 }
 .form-text{
-text-align: center;
 font-size: 12px;
 font-weight: 600;
 color: rgba(0, 0, 0, 0.6);
-line-height: 1.5;
 letter-spacing: 0.48px;
+line-height: 1.5;
+text-align: center;
 padding: 50px 0;
 }
-.input-field{
+.contact-form{
+max-width: 550px;
+margin: 0 auto,
+padding:30px;
+border-radius: 5px;
 display: flex;
 flex-direction: column;
-margin: 50px;
 }
+.input-fields{
+display: flex;
+flex-direction: column;
+margin-right: 4%;
+justify-content: flex-start;
+}
+.input-fields, .message{
+width: 400px;
+}
+.input-fields, .message,
 .input{
-border: none;
-border-bottom: 5px solid red;
+margin: 10px;
+background: transparent;
+border:0;
+border-bottom: 2px solid  rgba(0, 0, 0, 0.6);
 }
+
+
