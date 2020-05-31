@@ -19,18 +19,19 @@ font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 4.78px;
 line-height: 1.2;
+margin: 25px 0 0 25px;
 }
 .links{
 font-size: 12px;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 width: 400px;
-padding: 0;
 list-style: none;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 2.87px;
 line-height: 2.8;
+margin: 25px 15px 0 0;
 }
 .link{
 text-decoration: none;
@@ -47,6 +48,8 @@ font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 2px;
 line-height: 0.9;
+padding: 25px 0 25px 25px;
+
 }
 .header-information{
 margin: 150px 0 0 0;
@@ -54,12 +57,10 @@ margin: 150px 0 0 0;
 .about{
 font-size: 12px;
 display: flex;
-margin: 10px 0 0 0;
 line-height: 1.6;
-max-width: 400px;
 letter-spacing: 0.48px;
 line-height: 1.5;
-padding: 50px 0;
+margin: 25px 0 15px 25px;
 }
 .buttom{
 color: #fff;
@@ -68,11 +69,12 @@ font-size: 12px;
 text-align: center;
 background: transparent;
 border-radius: 20.2px;
-padding: 16px 42px 16px 43px;
+padding: 16px 43px 16px 42px;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 2.87px;
 line-height: 2.8;
+margin: 15px 0 0 25px;
 }
 .wrapper{
 max-width: 1200px;
@@ -99,33 +101,36 @@ font-weight: 300;
 }
 .about-paragraph{
 display: flex;
-max-width: 800px;
-padding: 0px 25px 0px 40px;
 font-weight: 600;
 }
 .work-paragraph{
 display: flex;
-padding: 45px 25px 0px 40px;
-width: 800px;
+justify-content: space-around;
+margin: 0 auto;
+padding: 25px 25px 25px 25px;
+
 }
 .about-text{
 font-size: 12px;
 font-weight: 600;
 color: rgba(0, 0, 0, 0.7);
 letter-spacing: 0.48px;
+
 }
 .work{
 background: #d1bac8;
+max-width: 1200px;
 }
 .work-header{
 text-align: center;
-padding: 50px 0;
+padding: 50px 0 50px 0;
 }
 .work-example{
 display: flex;
-height: 450px;
+list-style: none;
 justify-content:space-around;
 list-style: none;
+padding: 0px 33px 65px 33px;
 }
 .portfolio-item{
 position: relative;
@@ -140,7 +145,7 @@ position: absolute;
 }
 .portfolio-item-text{
 position: absolute;
-bottom: O;
+bottom: 0;
 width: 100%;
 }
 .form-container{
@@ -158,12 +163,12 @@ text-align: center;
 padding: 50px 0;
 }
 .contact-form{
-max-width: 550px;
-margin: 0 auto,
-padding:30px;
-border-radius: 5px;
 display: flex;
 flex-direction: column;
+margin: 0 auto;
+padding: 30px;
+border-radius: 5px;
+
 }
 .input-fields{
 display: flex;
@@ -174,7 +179,7 @@ justify-content: flex-start;
 .input-fields, .message{
 width: 400px;
 }
-.input-fields, .message,
+.message,
 .input{
 margin: 10px;
 background: transparent;
