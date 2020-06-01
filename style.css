@@ -13,20 +13,21 @@
  font-family: ‘Poppins’;
  font-weight: 600;
 }
+
 .title{
 font-size: 20px;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 4.78px;
-line-height: 1.2;
 margin: 25px 0 0 25px;
 }
 .links{
 font-size: 12px;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 width: 400px;
 list-style: none;
+padding: 0;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 2.87px;
@@ -38,31 +39,33 @@ text-decoration: none;
 color:#000000;
 font-weight: 600;
 }
+.wrapper{
+max-width: 1200px;
+margin: 0 auto;
+font-family: 'Poppins', sans-serif;
+}
 .header-container{
 display: flex;
 justify-content: space-between;
 }
 .subtitle{
 font-size: 20px;
+font-size: 20px;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 2px;
 line-height: 0.9;
-padding: 25px 0 25px 25px;
-
+}
+.about-me{
+font-size: 12px;
+font-weight: 600;
+color: rgba(0, 0, 0, 0,);
+letter-spacing: 0.48px;
+line-height: 1.54;
+width: 400px;
 }
 .header-information{
-margin: 150px 0 0 0;
-}
-.about-info{
-font-size: 12px;
-display: flex;
-line-height: 1.6;
-letter-spacing: 0.48px;
-line-height: 1.5;
-max-width: 400px;
-padding: 0 0 0 25px;
-
+margin: 150px 30px 30px 30px;
 }
 .buttom{
 color: #fff;
@@ -71,17 +74,12 @@ font-size: 12px;
 text-align: center;
 background: transparent;
 border-radius: 20.2px;
-padding: 16px 43px 16px 42px;
+padding: 16px 42px 16px 43px;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 2.87px;
-line-height: 2.8;
-margin: 15px 0 0 25px;
-}
-.wrapper{
-max-width: 1200px;
-margin: 0 auto;
-font-family: 'Poppins', sans-serif;
+line-height: 1.54;
+margin: 15px 0 0 0;
 }
 .header{
 background-image: url("images/background.jpg");
@@ -89,35 +87,48 @@ height: 714px;
 background-size: cover;
 background-repeat: no-repeat;
 }
+.about{
+display: flex;
+justify-content: space-around;
+margin: 20px 20px 20px 20px;
+}
 .about-img{
 width: 308px;
 height: 340px;
+object-fit: contain;
 }
 .subtitle-text{
 font-size: 12px;
 font-weight: 600;
-}
-.years{
-font-size: 12px;
-font-weight: 300;
+letter-spacing: 0.48px;
+line-height: 1.54;
 }
 .about-paragraph{
 display: flex;
+justify-content: space-between;
 font-weight: 600;
-}
-.work-paragraph{
-display: flex;
-justify-content: space-around;
-margin: 0 auto;
-padding: 25px 25px 25px 25px;
-
+padding: 10px 10px 30px 20px;
+max-width: 700px;
 }
 .about-text{
 font-size: 12px;
 font-weight: 600;
 color: rgba(0, 0, 0, 0.7);
 letter-spacing: 0.48px;
-
+line-height: 1.54;
+}
+.work-paragraph{
+display: flex;
+justify-content: space-between;
+font-weight: 600;
+padding: 10px 10px 30px 20px;
+max-width: 700px;
+}
+.years{
+font-size: 12px;
+font-weight: 300;
+letter-spacing: 0.48px;
+line-height: 1.54;
 }
 .work{
 background: #d1bac8;
@@ -125,7 +136,7 @@ max-width: 1200px;
 }
 .work-header{
 text-align: center;
-padding: 50px 0 50px 0;
+padding: 50px 0 30px 0;
 }
 .work-example{
 display: flex;
@@ -133,6 +144,13 @@ list-style: none;
 justify-content:space-around;
 list-style: none;
 padding: 0px 33px 65px 33px;
+}
+.work-example{
+display: flex;
+justify-content:space-around;
+list-style: none;
+padding: 10px 15px 10px 15px;
+margin: 0 0 30px 0; 
 }
 .portfolio-item{
 position: relative;
@@ -149,6 +167,12 @@ position: absolute;
 position: absolute;
 bottom: 0;
 width: 100%;
+font-size: 12px;
+font-weight: 600;
+color: rgba(0, 0, 0, 0);
+letter-spacing: 3px;
+line-height: 1.18;
+text-align: left;
 }
 .form-container{
 font-family: 'Poppins', sans-serif;
@@ -166,11 +190,9 @@ padding: 50px 0;
 }
 .contact-form{
 display: flex;
-flex-direction: column;
 margin: 0 auto;
-padding: 30px;
+padding: 20px 0px 30px 30px;
 border-radius: 5px;
-
 }
 .input-fields{
 display: flex;
@@ -181,12 +203,31 @@ justify-content: flex-start;
 .input-fields, .message{
 width: 400px;
 }
-.message,
-.input{
+.input, .message{
+display: block;
 margin: 10px;
 background: transparent;
 border:0;
 border-bottom: 2px solid  rgba(0, 0, 0, 0.6);
+font-size: 12px;
+font-weight: 600;
+text-align: left;
+letter-spacing: 2.16px
+line-height:2.8;
 }
-
-
+.button,.send{
+color: #fff;
+border: 2px solid #000000;
+font-size: 12px;
+text-align: center;
+background: #000000; 
+border-radius: 20.2px;
+padding: 16px 42px 16px 43px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2.87px;
+line-height: 1.54;
+margin: 15px 0 0 0;
+position: absolute;
+left: 700px;
+}
