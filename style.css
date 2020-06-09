@@ -105,9 +105,16 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 10px 40px 30px 40px;
-	width: 524px;
-	height: 117px;
 }
+.about-table{
+	width: 380px;
+	text-align: left;
+	padding: 0 20px 0 20px;
+}
+.about-table-work{
+	padding: 0 20px 0 20px;
+}
+
 .about-text{
 	font-size: 12px;
 	font-weight: 600;
@@ -144,6 +151,10 @@
 	padding: 10px 15px 10px 15px;
 	margin: 0 0 30px 0; 
 }
+.image{
+	width: 364px;
+	height: 233px;
+}
 .portfolio-item{
 	position: relative;
 }
@@ -177,6 +188,9 @@
 	font-family: 'Poppins', sans-serif;
 	max-width: 1200px;
 	margin: 0 auto;
+}
+.form-general{
+text-align: center;
 }
 .form-text{
 	font-size: 12px;
@@ -229,12 +243,11 @@
 	line-height:2.8;
 	text-transform: uppercase;
 }
-.button,.send{
-	display: block;
+.button, .send{
 	color: #fff;
 	border: 2px solid #000000;
 	font-size: 12px;
-	text-align: center;
+	
 	background: #000000; 
 	border-radius: 20.2px;
 	padding: 16px 42px 16px 43px;
@@ -243,6 +256,4 @@
 	letter-spacing: 2.87px;
 	line-height: 1.54;
 	margin: 15px 0 0 0;
-	position: absolute;
-	left: 700px;
 }
