@@ -1,0 +1,259 @@
+@font-face {
+	src: url('fonts/PoppinsReg.ttf');
+	font-family: ‘Poppins’;
+	font-weight: 400;
+}
+@font-face {
+	src: url('fonts/PoppinsLight.ttf');
+	font-family: ‘Poppins’;
+	font-weight: 300;
+}
+@font-face {
+	src: url('fonts/PoppinsSem.ttf');
+	font-family: ‘Poppins’;
+	font-weight: 600;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 4.78px;
+	margin: 25px 0 0 25px;
+}
+.links{
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	list-style: none;
+	padding: 0;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2.87px;
+	line-height: 2.8;
+	margin: 25px 15px 0 0;
+}
+.link{
+	text-decoration: none;
+	color:#000000;
+	font-weight: 600;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+}
+.header-container{
+	display: flex;
+	justify-content: space-between;
+}
+.subtitle{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 0.9;
+}
+.about-me{
+	font-size: 12px;
+	font-weight: 400;
+	color: #000000;
+	letter-spacing: 0.48px;
+	line-height: 1.54;
+	width: 400px;
+}
+.header-information{
+	margin: 150px 30px 30px 30px;
+}
+.buttom{
+	color: #fff;
+	border: 2px solid #fff;
+	font-size: 12px;
+	text-align: center;
+	background: transparent;
+	border-radius: 20.2px;
+	padding: 16px 42px 16px 43px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2.87px;
+	line-height: 1.54;
+	margin: 15px 0 0 0;
+}
+.header{
+	background-image: url("images/background.jpg");
+	height: 714px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about{
+	display: flex;
+	margin: 20px 20px 20px 20px;
+}
+.about-img{
+	width: 308px;
+	height: 340px;
+	object-fit: contain;
+}
+.subtitle-text{
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.48px;
+	line-height: 1.54;
+}
+.about-paragraph{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 40px 30px 40px;
+}
+.about-table{
+	width: 380px;
+	text-align: left;
+	padding: 0 20px 0 20px;
+}
+.about-table-work{
+	padding: 0 20px 0 20px;
+}
+
+.about-text{
+	font-size: 12px;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.7);
+	letter-spacing: 0.48px;
+	line-height: 1.54;
+}
+.work-paragraph{
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	padding: 10px 40px 30px 40px;
+	width: 524px;
+	height: 117px;
+}
+.years{
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0.48px;
+	line-height: 1.54;
+}
+.work{
+	background: #d1bac8;
+	max-width: 1200px;
+}
+.work-header{
+	text-align: center;
+	padding: 50px 0 30px 0;
+}
+.work-example{
+	display: flex;
+	justify-content:space-around;
+	list-style: none;
+	padding: 10px 15px 10px 15px;
+	margin: 0 0 30px 0; 
+}
+.image{
+	width: 364px;
+	height: 233px;
+}
+.portfolio-item{
+	position: relative;
+}
+.portfolio-item::before{
+	content: '';
+	background: rgba( 255, 255, 255, 0.5);
+	width: 364px;
+	height: 233px;
+	object-fit: contain;
+	display: block;
+	position: absolute;
+	text-align: left;
+}
+.portfolio-item-text{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #000000;
+	letter-spacing: 3px;
+	line-height: 1.17;
+	text-align: left;
+	text-transform: uppercase;
+}
+.portfolio-links{
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.48px;
+	line-height: 1.54;
+}
+.form-container{
+	font-family: 'Poppins', sans-serif;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.form-general{
+text-align: center;
+}
+.form-text{
+	font-size: 12px;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.6);
+	letter-spacing: 0.48px;
+	line-height: 1.5;
+	text-align: center;
+	padding: 50px 0;
+}
+.contact-form{
+	display: flex;
+	margin: 0 auto;
+	padding: 20px 0px 30px 30px;
+	border-radius: 5px;
+	width: 900px;
+}
+.input-fields{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+	justify-content: flex-start;
+}
+.input{
+	width: 400px;
+	display: block;
+	margin: 10px;
+	background: transparent;
+	border:0;
+	border-bottom: 2px solid  rgba(0, 0, 0, 0.6);
+	font-size: 12px;
+	font-weight: 600;
+	text-align: left;
+	letter-spacing: 2.16px;
+	line-height:2.8;
+	text-transform: uppercase;
+}
+.msg{
+	height: 150px;
+	width: 400px;
+	display: block;
+	margin: 10px;
+	background: transparent;
+	border:0;
+	border-bottom: 2px solid  rgba(0, 0, 0, 0.6);
+	font-size: 12px;
+	font-weight: 600;
+	text-align: left;
+	letter-spacing: 2.16px;
+	line-height:2.8;
+	text-transform: uppercase;
+}
+.button, .send{
+	color: #fff;
+	border: 2px solid #000000;
+	font-size: 12px;
+	
+	background: #000000; 
+	border-radius: 20.2px;
+	padding: 16px 42px 16px 43px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2.87px;
+	line-height: 1.54;
+	margin: 15px 0 0 0;
+}
